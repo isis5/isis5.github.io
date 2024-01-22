@@ -1,0 +1,74 @@
+
+
+/* 
+CARNE = 400G P/PESSOA 
+CERVEJA = 1200 ML P/PESSOA
+AGUA = 1000ML P/PESSOA
+
+CRIANÇA = 0,5
+*/
+
+body, html{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    float: left;
+}
+
+h2{
+    font-size: 2em;
+    margin: 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+#calculadora{
+    float: right;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(255, 255, 0);
+    height: 663px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 0%;
+    padding-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+}
+
+button{
+    padding: 10px;
+    margin: 20px;
+    margin-left: 85px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px black solid;
+}
+
+p{
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 1.2em;
+}

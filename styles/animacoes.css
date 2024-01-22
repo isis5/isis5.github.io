@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+:root {
+  --cor01: #1c0b2b;
+  --cor02: #3a0afb;
+  --cor03: #0140b9;
+  --cor04: #6040db;
+  --cor05: #6f95ff;
+  --cor06: #f034f0;
+  --cor07: #fff;
+}
+
+/* ------------------------- ANIMAÇÕES DA NAVEGAÇÃO -------------------------- */
+.menu nav a::after{
+  content: '';
+  position: absolute;
+  bottom: 0rem;
+  left: 50%;
+  width: 0%;
+  height: 0.1rem;
+  background: var(--cor05);
+  transition: all 300ms ease-in;
+}
+
+.menu a:hover::after{
+  width: 100%;
+  left: 0%;
+}
+
+/*----------- ANIMAÇÕES DA HOME -----------------*/
+
+
+h1::after{
+  content: "|";
+  opacity: 1;
+  color: var(--cor01);
+  animation: pisco .7s infinite;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+@keyframes pisco{
+  0%, 100%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+}
+
+  /* ---------------------------------------------------------- */
+
+
+
+
+
+

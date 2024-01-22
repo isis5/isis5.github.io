@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #1c0b2b;
+    --cor02: #3a0afb;
+    --cor03: #0140b9;
+    --cor04: #6040db;
+    --cor05: #6f95ff;
+    --cor06: #F034F0;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main{
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+main > hgroup{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+hgroup > h3{
+    color: var(--cor05);
+    letter-spacing: 5px;
+}
